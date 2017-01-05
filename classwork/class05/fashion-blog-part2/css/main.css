@@ -1,0 +1,97 @@
+body {
+	font-family: Lato, sans-serif;
+}
+
+/*<-- START -- Navigation copied from other exercise -->*/
+nav {
+	background-color: black;
+}
+
+
+nav a {
+	color: #cccccc;
+	display: inline-block;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+
+nav a:hover {
+	color: #ffffff;
+	background-color: #ff7401;
+	display: inline-block;
+
+}
+/*<-- END -- Navigation copied from other exercise -->*/
+
+
+#main-box {
+	width: 800px;
+	/*background: #A2A56E;*/
+	margin: 20px;
+}
+
+
+#header {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 0px;
+}
+
+
+#post {
+	/*background: #6EA5A3;*/
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+
+
+.Sartre {
+	color: red;
+	font-size: 50px;
+}
+
+
+.Better {
+	font-size: 30px;
+}
+
+
+h3 {
+
+}
+
+
+.nav-top {
+	list-style-type: none;
+	text-decoration: underline;
+}
+
+
+.date {
+	color: #eaeaea;
+}
+
+
+p {
+	text-align: left;
+}
+
+
+#continues {
+	text-align: right;
+}
+
+
+hr {
+	width: 100%;
+}
+
+
+#copyright {
+	color: #eaeaea;
+	font-size: .75em;
+}

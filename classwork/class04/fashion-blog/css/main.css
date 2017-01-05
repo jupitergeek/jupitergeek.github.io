@@ -1,0 +1,127 @@
+body {
+	font-family: Lato, sans-serif;
+  background: lightgrey;
+  line-height: 1.5;
+}
+
+#main-box {
+  background: white;
+  padding: 54px;
+  margin: 0;
+	width: 720px;
+	/*background: #A2A56E;*/
+	margin: 20px;
+}
+
+
+#header {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 0px;
+}
+
+
+#post {
+	/*background: #6EA5A3;*/
+  color: black;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0px;
+
+}
+
+
+.Sartre {
+	color: red;
+	font-size: 75px;
+  line-height: 1.5px;
+}
+
+
+.Better {
+  color: black;
+  font-size: 30px;
+}
+
+
+h3 {
+
+}
+
+
+ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li  {
+/*   color: #DD0000; */
+  display: inline;
+  background-color: white;
+/*   padding: 15px; */
+  text-align; left;
+}
+
+.nav-top a:link {
+	color: #DD0000;
+  text-decoration: underline;
+}
+.nav-top a:visited {
+	color: #DD000;
+}
+.nav-top a:hover {
+	color: #aa0000;
+}
+.nav-top a:active {
+	color: #aa0000;
+}
+
+
+<-- This margin does nothing? -->
+.nav-top {
+/*   margin: 0, auto; */
+}
+<-- This margin does nothing? -->
+
+
+.nav-bottom a:link {
+	color: #dddddd;
+  text-decoration: underline;
+}
+.nav-bottom a:visited {
+	color: #dddddd;
+}
+.nav-bottom a:hover {
+	color: black;
+}
+.nav-bottom a:active {
+	color: black;
+}
+
+.date {
+	color: #cccccc;
+}
+
+
+p {
+	text-align: left;
+}
+
+
+#continues {
+	text-align: right;
+}
+
+
+hr {
+	width: 100%;
+}
+
+
+#copyright {
+	color: #bbbbbb;
+	font-size: .75em;
+}
