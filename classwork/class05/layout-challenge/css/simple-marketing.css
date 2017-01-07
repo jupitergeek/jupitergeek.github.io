@@ -1,0 +1,80 @@
+body {
+
+}
+
+.wrapper {
+	width: 800px;
+	background-color: lightgrey;
+}
+
+header {
+	height: 200px;
+	background-color: pink;
+	margin: 10px;
+}
+
+main {
+	/*overflow: hidden;*/
+}
+
+.apple {
+	height: 400px;
+	width: 380px;
+	background-color: #D64933;
+	margin: 10px;
+	float: left;
+}
+
+.lemon {
+	height: 400px;
+	width: 380px;
+	background-color: #efee94;
+	margin: 10px;
+	float: left;
+}
+
+.left {
+	height: 400px;
+	width: 180px;
+	background-color: green;
+	float: left;
+	/*clear: left;*/
+	/*opacity: .2;*/
+	margin: 10px;
+}
+
+.middle {
+	height: 400px;
+	width: 380px;
+	background-color: grey;
+	float: left;
+	/*clear: left;*/
+	/*opacity: .2;*/
+	margin: 10px;
+}
+
+.right {
+	height: 400px;
+	width: 180px;
+	background-color: lightblue;
+	float: left;
+	/*clear: right;*/
+	/*opacity: .2;*/
+	margin: 10px;
+}
+
+footer {
+	height: 200px;
+	background-color: orange;
+	margin: 10px;
+	/*clear: both;*/
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+

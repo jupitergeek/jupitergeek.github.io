@@ -1,0 +1,53 @@
+body {
+
+}
+
+.wrapper {
+	width: 800px;
+	background-color: lightgrey;
+}
+
+header {
+	height: 200px;
+	background-color: pink;
+	margin: 10px;
+}
+
+main {
+	overflow: hidden;
+}
+
+.left {
+	height: 400px;
+	width: 480px;
+	background-color: green;
+	float: left;
+	/*clear: left;*/
+	/*opacity: .2;*/
+	margin: 10px;
+}
+
+.right {
+	height: 400px;
+	width: 280px;
+	background-color: lightblue;
+	float: left;
+	/*clear: right;*/
+	/*opacity: .2;*/
+	margin: 10px;
+}
+
+footer {
+	height: 200px;
+	background-color: orange;
+	margin: 10px;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+

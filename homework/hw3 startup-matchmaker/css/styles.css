@@ -1,0 +1,116 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;*/
+
+body {
+	margin: 0;
+	font-family: Merriweather, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.wrapper {
+	/*background-color: lightgrey;*/
+    background-image: url("../img/coworking.jpg");
+	background-size: cover;
+	height: 968px;
+	width: 1280px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*<-- begin header -->*/
+header {
+	background-color: black;
+	height: 80px;
+	width: 1280px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	color: yellow;
+}
+
+nav {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+/*<-- end header -->*/
+
+
+
+/*<-- begin section-1 -->*/
+.section-1 {
+	height: 80px;
+	width: 1280px;
+	background-color: lightgrey;
+	padding: 0px;
+	margin: 0px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+/*<-- end section-1 -->*/
+
+
+
+/*<-- begin section-2 -->*/
+.section-2 {
+	height: 300px;
+	width: 1280px;
+/*    background-image: url
+("../img/coworking.jpg");*/
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.box-create-profile {
+	height: 250px;
+	width: 400px;
+	background-color: white;
+	opacity: .65;
+	margin: 20px;
+	float: right;
+}
+/*<-- end section-2 -->*/
+
+
+
+/*<-- begin section-3 -->*/
+.section-3 {
+	height: 80px;
+	width: 1280px;
+	background-color: grey;
+	padding: 0;
+	margin: 0;
+}
+/*<-- end section-3 -->*/
+
+
+footer {
+	height: 80px;
+	width: 1280px;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
