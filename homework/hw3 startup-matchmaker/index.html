@@ -8,8 +8,16 @@
 <body>
 
 <!-- 
+
 	wrapper
+	968 x 1280
+
+		background-image
+		664 x 1024
+
 		header
+		100 x 1280
+
 			h1
 			nav
 				ul
@@ -19,23 +27,30 @@
 					li
 					li
 
-		div section-1 (brains)
-			p (text)
+		div section-with-background?
 
-		div section-2 (image)
-			background-image
-			floating box
-				h3
-				p
-				(button)
+			div section-1 (brains)
+			100 x 1280
+				p (text)
 
-		div section-3 (boxes)
-			div-left (with button)
-			div-middle (with button)
-			div-right (with button)
+			div section-2 (image)
+			500 x 1280
+				floating box-create-profile
+				250 x 400
+					h3
+					p
+					(button)
+
+			div section-3 (boxes)
+				box-left (with button)
+				box-middle (with button)
+				box-right (with button)
 
 		footer
  -->
+
+
+
 
 	<div class="wrapper">
 
@@ -52,25 +67,34 @@
 			</nav>
 		</header>
 
-
-		<div class="section-1">
-			<p></p>
-		</div>
-
-
-		<div class="section-2">
-			<div class="box-create-profile"></div>
-		</div>
+				<div class="section-with-background">
+					<div class="section-1">
+						<p></p>
+					</div>
 
 
-		<div class="section-3">
-			
-		</div>
+					<div class="section-2">
+						<div class="box-create-profile"></div>
+					</div>
+
+
+					<div class="section-3">
+						
+							<div class="box-left"><p>Hi</p></div>
+
+							<div class="box-middle">hi<p></p></div>
+							
+							<div class="box-right">Hi<p></p></div>
+
+					</div>
+				</div>
+
+
+
+		<footer>
+			<p class="footer-text">© 2013 Startup Matchmaker. Made in NY.</p>
+		</footer>
 
 	</div>
-
-	<footer>
-		
-	</footer>
 </body>
 </html>

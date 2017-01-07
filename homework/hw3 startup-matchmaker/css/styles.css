@@ -8,29 +8,34 @@ body {
 	font-family: Merriweather, sans-serif;
 	font-size: 11px;
 	text-decoration: none;
+	background-color: white;
 }
 
 .wrapper {
 	/*background-color: lightgrey;*/
     background-image: url("../img/coworking.jpg");
-	background-size: cover;
-	height: 968px;
+    background-size: contain;
+	background-repeat: no-repeat;
+   	height: 968px;
 	width: 1280px;
 	padding: 0px;
 	margin: 0px;
 }
 
+
+
 /*<-- begin header -->*/
 header {
 	background-color: black;
-	height: 80px;
-	width: 1280px;
-	padding: 0px;
+	height: 40px;
+	width: 1220px;
+	padding: 30px;
 	margin: 0px;
 }
 
 h1 {
 	color: yellow;
+	font-family: "Merriweather", serif;
 }
 
 nav {
@@ -50,7 +55,7 @@ li {
 
 /*<-- begin section-1 -->*/
 .section-1 {
-	height: 80px;
+	height: 100px;
 	width: 1280px;
 	background-color: lightgrey;
 	padding: 0px;
@@ -67,7 +72,7 @@ p {
 
 /*<-- begin section-2 -->*/
 .section-2 {
-	height: 300px;
+	height: 420px;
 	width: 1280px;
 /*    background-image: url
 ("../img/coworking.jpg");*/
@@ -77,11 +82,11 @@ p {
 }
 
 .box-create-profile {
-	height: 250px;
-	width: 400px;
+	height: 375px;
+	width: 500px;
 	background-color: white;
 	opacity: .65;
-	margin: 20px;
+	margin: 22px;
 	float: right;
 }
 /*<-- end section-2 -->*/
@@ -90,21 +95,61 @@ p {
 
 /*<-- begin section-3 -->*/
 .section-3 {
-	height: 80px;
-	width: 1280px;
+	height: 270px;
+	width: 1230px;
 	background-color: grey;
-	padding: 0;
-	margin: 0;
+	padding: 25px;
+	margin: 0px;
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+}
+
+.box-left {
+	background-color: lightgrey;
+	height: 250px;
+	width: 410px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.box-middle {
+	background-color: lightgrey;
+	height: 250px;
+	width: 406px;
+	padding: 0px;
+	margin: 0px;
+	border-top: 0px;
+	border-right: 1px solid grey;
+	border-bottom: 0px;
+	border-left: 1px solid grey;
+	float: left;
+}
+
+.box-right {
+	background-color: lightgrey;
+	height: 250px;
+	width: 410px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
 }
 /*<-- end section-3 -->*/
 
 
 footer {
-	height: 80px;
-	width: 1280px;
 	background-color: black;
-	padding: 0;
-	margin: 0;
+	height: 20px;
+	width: 1220px;
+	padding: 30px;
+	margin: 0px;
+}
+
+.footer-text {
+	color: white;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 24px;
+	padding: 0, auto;
 }
 
 .clearfix:after {
