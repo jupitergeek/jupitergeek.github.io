@@ -25,6 +25,10 @@ body {
 
 
 /*<-- begin header -->*/
+/*<-- PLEASE NOTE: this is totally janky!!! negative values
+to align stuff properly? what's that about?! I would really 
+like to know how to make this better. But I want to keep on 
+working. -->*/
 header {
 	background-color: black;
 	height: 40px;
@@ -36,18 +40,51 @@ header {
 h1 {
 	color: yellow;
 	font-family: "Merriweather", serif;
+	font-size: 44px;
+	font-weight: none;
+	margin-left: 10px;
+	margin-top: -8px;
+	/*float: left;*/
 }
 
 nav {
-
+/*	background-color: yellow;*/
+	float: right;
+	margin-top: -70px;
+	margin-right: -30px;
+	padding-top: -10px;
+	padding-right: 10px;
 }
 
 ul {
-
+/*    color: lightgrey;*/
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 22px;
+    list-style-type: none;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
+	display: inline-block;
 
+}
+
+li a:link, a:visited {
+    height: 0px;
+    width: 130px;
+    background-color: none;
+    color: white;
+    text-decoration: none;
+/*    text-align: right;*/
+    font-weight: bold;
+    padding: 10px;
+}
+
+li a:hover, a:active {
+/*    background-color: green;*/
+	color: yellow;
 }
 /*<-- end header -->*/
 
@@ -57,12 +94,16 @@ li {
 .section-1 {
 	height: 100px;
 	width: 1280px;
-	background-color: lightgrey;
+	background-color: #C6C6C6;
 	padding: 0px;
 	margin: 0px;
 }
 
-p {
+.tagline {
+	font-family: "Merriweather", serif;
+	color: black;
+	text-align: center;
+	text-transform: italic;
 	padding: 0;
 	margin: 0;
 }
