@@ -40,7 +40,7 @@ header {
 h1 {
 	color: yellow;
 	font-family: "Merriweather", serif;
-	font-size: 44px;
+	font-size: 36px;
 	font-weight: none;
 	margin-left: 10px;
 	margin-top: -8px;
@@ -49,8 +49,8 @@ h1 {
 
 nav {
 /*	background-color: yellow;*/
-	margin-top: -70px;
-	margin-right: -30px;
+	margin-top: -60px;
+	margin-right: -20px;
 	padding-top: -10px;
 	padding-right: 10px;
 	float: right;
@@ -95,6 +95,7 @@ li a:hover, a:active {
 .section-1 {
 	height: 100px;
 	width: 1280px;
+	display: inline-block;
 	background-color: #C6C6C6;
 	padding: 0px;
 	margin: 0px;
@@ -102,14 +103,25 @@ li a:hover, a:active {
 	border-top: 5px solid yellow;
 }
 
-span {
+.tagline {
 	font-family: "Merriweather", serif;
+	font-size: 30px;
 	color: black;
-/*	display: inline-block;*/
+	display: block;
 	text-align: center;
-	text-transform: italic;
-	padding: 100px;
-/*	margin: 10px;*/
+	font-style: italic;
+	padding: 30px;
+	margin: 0px;
+}
+
+.taste {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.are {
+	text-decoration: underline;
+	text-decoration-color: yellow;
 }
 /*<-- end section-1 -->*/
 
@@ -131,7 +143,7 @@ span {
 	width: 480px;
 	background-color: white;
 	opacity: .75;
-	margin: 22px;
+	margin: 42px;
 	padding-left: 20px;
 	padding-right: 20px;
 /*	border: 5px white;*/
@@ -171,7 +183,7 @@ with the text alignment, etc. D: !!! -->*/
 .section-3 {
 	height: 270px;
 	width: 1230px;
-	background-color: #C6C6C6;
+	background-color: #e2e2e2;
 	padding: 25px;
 	margin: 0px;
 }
@@ -243,6 +255,10 @@ with the text alignment, etc. D: !!! -->*/
 	border-radius: 5px;
 	padding-top: 14px;
 }
+
+.boxes-button {
+	background-color: #C6C6C6;
+}
 /*<-- end section-3 -->*/
 
 
@@ -256,6 +272,7 @@ footer {
 
 .footer-text {
 	color: white;
+	display: inline;
 	font-family: Source Sans Pro, sans-serif;
 	font-size: 24px;
 	padding: 0, auto;
