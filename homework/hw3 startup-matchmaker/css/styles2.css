@@ -75,7 +75,7 @@ li {
 
 }
 
-a.nav-link, a.nav-link:visited {
+li a:link, a:visited {
     height: 0px;
     width: 130px;
     background-color: none;
@@ -85,7 +85,7 @@ a.nav-link, a.nav-link:visited {
     padding: 10px;
 }
 
-a.nav-link:hover, a.nav-link:active {
+li a:hover, a:active {
 /*    background-color: green;*/
 	color: yellow;
 }
@@ -148,11 +148,12 @@ a.nav-link:hover, a.nav-link:active {
 }
 
 .box-create-profile {
-/*	height: 330px;*/
+	height: 330px;
 	width: 480px;
 	background-color: rgba(255, 255, 255, .75);
 	margin: 42px;
-	padding: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 /*	border: 5px white;*/
 /*	border-style: outset;*/
 	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.75), 0 5px 5px 0 rgba(0, 0, 0, 0.75);
@@ -171,39 +172,17 @@ a.nav-link:hover, a.nav-link:active {
 	font-weight: bold;
 }
 
-/*<-- begin -->*/
-/*<-- buttons -->*/
-a.button, a.button:visited {
-/*	height: 44px;*/
-	display: block;
-	text-align: center;
+/*<-- I have 2 button classes, one for this section-2
+specific button, and another lower down in the CSS
+for all buttons. they both work but something is funky
+with the text alignment, etc. D: !!! -->*/
+/*.box-create-profile*/ .button {
 	font-family: "Oswald", sans-serif;
 	font-size: 20px;
-	font-weight: 700;
-    color: black;
+	font-weight: bold;
 	text-transform: uppercase;
-	background-color: #C6C6C6;
-	border-radius: 10px;
-	padding: 14px;
+	text-align: center;
 }
-
-a.button:hover, a.button:active {
-	background-color: black;
-	color: yellow;
-}
-
-a.box-button, a.box-button:visited {
-	background-color: yellow;
-}
-
-a.box-button:hover, a.box-button:active {
-	background-color: black;
-	color: white;
-/*	font-weight: bold;*/
-}
-/*<-- end -->*/
-/*<-- buttons -->*/
-
 /*<-- end section-2 -->*/
 
 
@@ -226,6 +205,14 @@ a.box-button:hover, a.box-button:active {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.section-3 .button {
+	font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	background-color: #555;
+    color: white;*/
 }
 
 .box {
@@ -268,6 +255,20 @@ a.box-button:hover, a.box-button:active {
 
 }
 
+.button {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	background-color: yellow;
+	opacity: 1.0;
+	border-radius: 5px;
+	padding-top: 14px;
+}
+
+.boxes-button {
+	background-color: #C6C6C6;
+}
 /*<-- end section-3 -->*/
 
 

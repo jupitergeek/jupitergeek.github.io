@@ -3,6 +3,8 @@
 	<title>Startup Matchmaker</title>
 
 	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400|Merriweather:700,700italic|Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<!-- 	<link rel="stylesheet" href="css/normalize.css"> -->
+<!-- 	<link rel="stylesheet" href="css/reset.css"> -->
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -39,12 +41,12 @@
 				250 x 400
 					h3
 					p
-					(button)
+					(button w/active link)
 
 			div section-3 (boxes, all 3 float-left)
-				box-left (with button) 250 x 370
-				box-middle (with button) 250 x 366
-				box-right (with button) 250 x 370
+				box-left (with button w/link) 250 x 370
+				box-middle (with button w/link) 250 x 366
+				box-right (with button w/link) 250 x 370
 
 		footer
  -->
@@ -57,11 +59,11 @@
 			<h1>Startup Matchmaker</h1>
 			<nav>
 				<ul>
-					<li><a href="#">Developers</a></li>
-					<li><a href="#">Designers</a></li>
-					<li><a href="#">How it Works</a></li>
-					<li><a href="#">Our team</a></li>
-					<li><a href="#">Blog</a></li>
+					<li><a class="nav-link" href="#">Developers</a></li>
+					<li><a class="nav-link" href="#">Designers</a></li>
+					<li><a class="nav-link" href="#">How it Works</a></li>
+					<li><a class="nav-link" href="#">Our team</a></li>
+					<li><a class="nav-link" href="#">Blog</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -76,7 +78,7 @@
 						<div class="box-create-profile">
 							<h2>Meet your Match</h2>
 							<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
-							<p class="button">Create a Profile</p>
+							<a href="#" class="button box-button">Create a Profile</a>
 						</div>
 					</div>
 
@@ -86,19 +88,19 @@
 						<div class="box box-left">
 							<h2>Create a Profile</h2>
 							<p>Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
-							<p class="boxes-button button">Sign up now</p>
+							<a href="#" class="boxes-button button">Sign up now</a>
 						</div>
 
 						<div class="box box-middle">
 							<h2>Find a Developer</h2>
 							<p>Looking for a fantastic developer to work with on the next big thing? Look no further.</p>
-							<p class="boxes-button button">Start your search</p>
+							<a href="#" class="boxes-button button">Start your search</a>
 						</div>
 							
 						<div class="box box-right">
 							<h2>Find a Designer</h2>
 							<p>Need someone who can make a product intuitive and appealing? Get ready.</p>
-							<p class="boxes-button button">Start your search</p>
+							<a href="#" class="boxes-button button">Start your search</a>
 						</div>
 
 					</div>
