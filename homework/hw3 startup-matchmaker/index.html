@@ -35,16 +35,16 @@
 
 			div section-2 (image)
 			500 x 1280
-				floating box-create-profile
+				box-create-profile (float-right)
 				250 x 400
 					h3
 					p
 					(button)
 
-			div section-3 (boxes)
-				box-left (with button)
-				box-middle (with button)
-				box-right (with button)
+			div section-3 (boxes, all 3 float-left)
+				box-left (with button) 250 x 370
+				box-middle (with button) 250 x 366
+				box-right (with button) 250 x 370
 
 		footer
  -->
@@ -68,12 +68,16 @@
 
 				<div class="section-with-background">
 					<div class="section-1">
-						<p></p>
+						<span class="tagline">Because two brains taste are better than one.</span>
 					</div>
 
 
 					<div class="section-2">
-						<div class="box-create-profile"></div>
+						<div class="box-create-profile">
+							<h2>Meet your Match</h2>
+							<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
+							<p class="button">Create a Profile</p>
+						</div>
 					</div>
 
 
