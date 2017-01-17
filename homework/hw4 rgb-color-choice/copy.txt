@@ -1,0 +1,22 @@
+Due: Sunday, 1/15
+Homework:
+	1.	Completing lifetime-supply
+	◦	Store your current age into a variable
+	◦	Store a maximum age into a variable
+	◦	Store a favorite drink (from a drop-down) into a variable
+	◦	Store an amount per day into a variable
+	◦	Calculate how many you would eat total for the rest of your life
+	◦	Output your results to the user
+	2.	Temperature Converter BONUS/OPTIONAL
+	◦	Create a page that takes user input and converts celcius to celsius to fahrenheit, and the reverse (no starter template provided, only the folder and files)
+	◦	Think about how you can accomplish this using input HTML elements, and the .value and .innerHTML properties
+	◦	Style the page as you wish
+	3.	Final Project:
+	◦	Proposal
+	▪	Make a new folder in your class github repo called final-project. (Will be alongside homework & class-work)
+	▪	Add add a .txt file in this repo with your idea/proposal for your final project
+	▪	Push to Github
+Pre-reading:
+	•	Codecademy's jQuery (lessons 1 - 5)
+	•	jQuery events
+	•	jQuery $(this)
