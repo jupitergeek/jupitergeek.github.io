@@ -1,0 +1,73 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#wrapper {
+    position:absolute;
+    top:0; right:0;
+    bottom:0; left:0;
+  background: black;
+}
+
+#output-text {
+  font-size: 5em;
+  color: black;
+  text-align: center;
+}
+
+.input-box {
+  height: 150px;
+  width: 150px;
+  font-face: sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  margin-left: auto;
+  text-align: center;
+}
+
+#answer {
+  width: 100px;
+
+
+a {
+  cursor: pointer;
+  display: block;
+  font-family: Arial, sans-serif;
+  height: 4em;
+  margin: 1em auto;
+  width: 10em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 4em;
+  background-color: #999999;
+  border-bottom: solid 2px #444444;
+  border-right: solid 2px #444444;
+}
+
+
+a:active {
+  border-top: solid 2px #444444;
+  border-left: solid 2px #444444;
+  border-bottom: none;
+  border-right: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+  text-align: center;
+}
