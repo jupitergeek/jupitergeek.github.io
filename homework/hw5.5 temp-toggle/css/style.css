@@ -1,0 +1,56 @@
+/*html { 
+  background: url(../images/pixel-landscape.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 50px;
+  color: black;
+}
+
+/*.container {
+  height: 320px;
+  width: 320px;
+  background: rgba(0, 0, 0, .2);
+}*/
+
+.input-box {
+/*  height: 150px;
+  width: 150px;*/
+}
+
+button {
+
+}
+
+#output-text {
+
+}
+
+/*.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}*/
+
+/*a {
+  cursor: pointer;
+  display: block;
+  font-family: Arial, sans-serif;
+  height: 4em;
+  margin: 1em auto;
+  width: 10em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 4em;
+  background-color: #999999;
+  border-bottom: solid 2px #444444;
+  border-right: solid 2px #444444;
+}*/

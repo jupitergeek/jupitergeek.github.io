@@ -9,24 +9,33 @@ $(document).ready(function(){
 
 
 // Declare function for Celcius calculation
-    $("#answer1").click(function() {
     // Store value of Celcius
+    // store variable with the calculation
+    // write that to html in element below: output text
+
+    $("#answer1").click(function() {
       var celcius = $('.celcius').val();
-// store variable with the calculation
       var celciusConvert = (celcius * (9/5) + 32);
-// write that to html in element below: output text
       $('#output-text').html(celciusConvert);
+
+      if (celciusConvert >= 85) {
+        $('html').css('background-url', '(../images/pixel-landscape_SUNNY.jpg)');
+      } else {
+        $('html').css('background-color', 'black');
+      }
+
+      // $('background-url', '../images/pixel-landscape_FROZEN.gif' no-repeat center fixed).css(celciusConvert);
     });
   
 // Declare function for Farenheit calculation
+    // Store value of Farenheit
+    // store variable with the calculation
+    // write that to html in element below: output text
+
     $("#answer2").click(function() {
-    // Store value of Celcius
       var farenheit = $('.farenheit').val();
-// store variable with the calculation
       var farenheitConvert = (farenheit - 32)  *  (5/9);
-// write that to html in element below: output text
       $('#output-text').html(farenheitConvert);
     }); 
-  
   
 });

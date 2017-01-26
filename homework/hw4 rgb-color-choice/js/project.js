@@ -51,3 +51,21 @@ document.getElementById('colorful-text').innerHTML = colorStr;
 var bgColor = document.getElementById('wrapper');
 bgColor.style.background = colorStr;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

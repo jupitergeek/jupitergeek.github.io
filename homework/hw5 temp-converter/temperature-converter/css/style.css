@@ -1,5 +1,5 @@
 html { 
-  background: url(../images/pixel-landscape.jpg) no-repeat center center fixed; 
+  background: url(../images/pixel-landscape_SUNNY.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   text-align: center;
   color: black;
 }
@@ -20,28 +20,28 @@ body {
   transform: translate(-50%, -50%);
 
   height: 250px;
-  width: 320px;
-  background: rgba(0, 0, 0, .1);
-}
-
-#output-text {
-  font-size: 5em;
-  color: black;
-  text-align: center;
+  width: 350px;
+  background: rgba(0, 0, 0, .2);
 }
 
 .input-box {
   height: 150px;
   width: 150px;
-  font-family: sans-serif;
   font-size: 50px;
   display: inline-block;
   margin-left: auto;
   text-align: center;
 }
 
-#answer1, #answer2 {
+button {
   width: 120px;
+  font-size: 13px;
+}
+
+#output-text {
+  font-size: 3em;
+  color: black;
+  text-align: center;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -61,13 +61,13 @@ body {
   text-align: center;
 }
 
-/*.clearfix:after {
+.clearfix:after {
    content: ".";
    visibility: hidden; 
    display: block; 
    height: 0; 
    clear: both;
-}*/
+}
 
 /*a {
   cursor: pointer;

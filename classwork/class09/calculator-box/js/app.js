@@ -58,6 +58,9 @@ $('#output').click(function () {
 	$('#output').text(0);
 })
 
+// Other way to change the output value
+// 
+
 // - D) #out should change the background of #out to white, and set the value back to zero
 // HINT: define a variable, var count = 0, at the top of your function; use this variable to keep track of what to display inside of #out
 // Ex: when the user clicks #a10, add 10 to the var count, and then reflect this change in the HTML
