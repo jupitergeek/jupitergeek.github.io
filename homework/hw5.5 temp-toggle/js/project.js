@@ -15,8 +15,8 @@
 $(document).ready(function(){
 
 	var temperature = 0;
-    var celciusConvert = (celcius * (9/5) + 32);
-    var farenheitConvert = (farenheit - 32)  *  (5/9);
+    // var celciusConvert = (celcius * (9/5) + 32);
+    // var farenheitConvert = (farenheit - 32)  *  (5/9);
 
 	$('#answer').click(function() {
 		console.log('hoaf');

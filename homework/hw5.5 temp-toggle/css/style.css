@@ -1,43 +1,73 @@
-/*html { 
-  background: url(../images/pixel-landscape.jpg) no-repeat center center fixed; 
+html { 
+  background: url(../images/pixel-landscape_SUNNY.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 body {
   font-family: 'Share Tech Mono', monospace;
-  font-size: 50px;
+  text-align: center;
   color: black;
 }
 
-/*.container {
-  height: 320px;
-  width: 320px;
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
+  height: 250px;
+  width: 350px;
   background: rgba(0, 0, 0, .2);
-}*/
+}
 
 .input-box {
-/*  height: 150px;
-  width: 150px;*/
+  height: 150px;
+  width: 150px;
+  font-size: 50px;
+  display: inline-block;
+  margin-left: auto;
+  text-align: center;
 }
 
 button {
-
+  width: 120px;
+  font-size: 13px;
 }
 
 #output-text {
-
+  font-size: 3em;
+  color: black;
+  text-align: center;
 }
 
-/*.clearfix:after {
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #19D538;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #19D538;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #19D538;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #19D538;
+  text-align: center;
+}
+
+.clearfix:after {
    content: ".";
    visibility: hidden; 
    display: block; 
    height: 0; 
    clear: both;
-}*/
+}
 
 /*a {
   cursor: pointer;
