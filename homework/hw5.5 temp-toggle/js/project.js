@@ -20,12 +20,14 @@ $(document).ready(function(){
 
 	$('#answer').click(function() {
 		console.log('hoaf');
-		$('#answer').toggleClass('celciusConvert');
+		$('#answer').toggleClass('celciusConvert')
+			.html();
+			.css();
 		$('#answer').toggleClass('farenheitConvert');
 
 	if ('fromCelcius' >= 85) {
 		console.log('celcius to f');
-		$('#output-text').html();
+		$('#output-text').html()
 	} else {
 
 	}
