@@ -12,16 +12,22 @@ $(document).ready(function () {
       		
 		} else {
 			$('#list').append(output);
-	        $("span").css("display", "inline-block").fadeOut(2000);
+	        $('span').css('display', 'inline-block').fadeOut(2000);
 		}
 
-		$("#item").val('');
-        $("#item").focus();
+		$('#item').val('');
+        $('#item').focus();
 
 // Legendary Bonus: Remove individual <li> elements when they are clicked (hint: use $(this) and .remove())
 	$('li').click(function() {
 		$(this).remove();
+        $('#item').focus();
 	})
+
+	// 'LEGENDARY' Version ???
+	// $('ul').on('click', 'li', function() {
+	// $(this).remove();
+	// })
 	
 	})
 

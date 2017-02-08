@@ -1,0 +1,256 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;*/
+
+body {
+	margin: 0;
+	font-family: Merriweather, sans-serif;
+	font-size: 11px;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+   	height: 968px;
+	width: 95%;
+	margin: auto;
+}
+
+
+
+/*<-- begin header -->*/
+header {
+	background-color: black;
+	height: 28px;
+	width: 1220px;
+	padding: 30px;
+	margin: 0px;
+}
+
+h1 {
+	color: yellow;
+	font-family: "Merriweather", serif;
+	font-size: 36px;
+	font-weight: none;
+	margin-left: 10px;
+	margin-top: -8px;
+}
+
+nav {
+	margin-top: -60px;
+	margin-right: -20px;
+	padding-top: -10px;
+	padding-right: 10px;
+	float: right;
+}
+
+ul {
+/*    color: lightgrey;*/
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 22px;
+    list-style-type: none;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+	display: inline-block;
+	margin-right:-4px;
+
+}
+
+a.nav-link, a.nav-link:visited {
+    height: 0px;
+    width: 130px;
+    background-color: none;
+    color: white;
+    padding: 10px;
+}
+
+a.nav-link:hover, a.nav-link:active {
+	color: yellow;
+}
+/*<-- end header -->*/
+
+
+
+/*<-- begin section-1 -->*/
+.section-1 {
+	width: 1280px;
+	display: inline-block;
+	background-color: #C6C6C6;
+	border-top: 5px solid yellow;
+}
+
+.tagline {
+	font-family: "Merriweather", serif;
+	font-size: 30px;
+	color: black;
+	display: block;
+	text-align: center;
+	font-style: italic;
+	padding: 30px;
+}
+
+.taste {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.are {
+  	/*text-decoration: underline ;*/
+	border-bottom: 5px solid yellow;
+
+}
+/*<-- end section-1 -->*/
+
+
+
+/*<-- begin section-2 -->*/
+.section-2 {
+	height: 420px;
+	width: 1280px;
+
+    background-image: url("../img/coworking.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+
+	background-position-y: -168px;
+}
+
+.box-create-profile {
+	width: 480px;
+	background-color: rgba(255, 255, 255, .75);
+	margin: 42px;
+	padding: 50px;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.75), 0 5px 5px 0 rgba(0, 0, 0, 0.75);
+	color: black;
+	float: right;
+}
+
+.box-create-profile h2 {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+}
+
+.box-create-profile p {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*<-- begin -->*/
+/*<-- buttons -->*/
+a.button, a.button:visited {
+/*	height: 44px;*/
+	display: block;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+    color: black;
+	text-transform: uppercase;
+	background-color: #C6C6C6;
+	border-radius: 10px;
+	padding: 14px;
+	box-shadow: 0px 5px 0px grey;
+}
+
+a.button:hover, a.button:active {
+	background-color: black;
+	color: yellow;
+	box-shadow: 0px 5px 0px lightgrey;
+}
+
+a.box-button, a.box-button:visited {
+	background-color: yellow;
+	box-shadow: 0px 5px 0px grey;
+}
+
+a.box-button:hover, a.box-button:active {
+	background-color: black;
+	color: white;
+	box-shadow: 0px 5px 0px lightgrey;
+}
+/*<-- end -->*/
+/*<-- buttons -->*/
+
+/*<-- end section-2 -->*/
+
+
+
+/*<-- begin section-3 -->*/
+.section-3 {
+	height: 240px;
+	width: 1230px;
+	background-color: #e2e2e2;
+	padding: 25px;
+}
+
+.section-3 h2 {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+}
+
+.section-3 p {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.box {
+	background-color: #e2e2e2;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+}
+
+.box-left {
+	height: 250px;
+	width: 370px;
+}
+
+.box-middle {
+	height: 250px;
+	width: 366px;
+	border-top: 0px;
+	border-right: 1px solid #b8babc;
+	border-bottom: 0px;
+	border-left: 1px solid #b8babc;
+
+}
+
+.box-right {
+	height: 250px;
+	width: 370px;
+}
+
+/*<-- end section-3 -->*/
+
+
+footer {
+	background-color: black;
+	height: 20px;
+	width: 1220px;
+	padding: 30px;
+}
+
+.footer-text {
+	color: white;
+	display: inline;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 24px;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

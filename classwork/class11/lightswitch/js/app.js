@@ -53,7 +53,7 @@ $(document).ready(function () {
 			$('#lightswitch').toggleClass('switch-on');
 
 		if (lights == 'on') {
-			console.log('howdy, yall lights on!');
+			console.log('howdy');
 
 			lights = 'off';
 		} else {
