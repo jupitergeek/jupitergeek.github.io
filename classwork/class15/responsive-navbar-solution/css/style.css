@@ -38,6 +38,7 @@ header nav a {
 }
 
 @media (max-width: 880px) {
+
 	#large-nav {
 		display: none;
 	}
@@ -46,12 +47,12 @@ header nav a {
 		display: block;
 		float: right;
 		padding-top: 5px;
-	}	
+	}
 
-	#small-nav-link {
+	.small-nav-link {
 		display: block;
 		text-align: center;
 		background: #ccc;
-/*		height: 20px;*/
 	}
+
 }
