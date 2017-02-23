@@ -1,0 +1,295 @@
+/*<----- DESKTOP-SIZE BEGIN ----->*/
+@media only screen and (min-width: 901px) {
+
+	body {
+	  background: rgba(230, 230, 230, 1);
+	  color: rgba(0, 0, 0, 1);
+	  font-family: 'Francois One', sans-serif;
+	  font-size: 20px;
+	  line-height: 1em;
+		margin: 0;
+	    /*overflow-y: hidden;
+	    overflow-x: hidden;*/
+		}
+
+	.wrapper {
+		display: block;
+		width: 901px;
+		margin: 0 auto;
+		background-color: #132440;
+		}
+	/* The Boxes - Main elements of design */
+	.box {
+		display: inline-block;
+		vertical-align: top;
+		background-color: white;
+		/*height: 100vh;*/
+		width: 100%;
+		padding-bottom: 300px;
+		}
+
+	.box-1 .bottom {
+		height: 50vh;
+	}
+
+	.box-2 .top, .box-3 .top, .box-4 .top, .box-5 .top {
+		height: 50vh;
+		width: 100%;
+/*		background-image: url('../images/vector_fox_zzz.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;*/
+		}
+
+	.bottom {
+		/*height: 50vh;*/
+/*		background-color: rgba(255,255,255,.5);*/
+		margin: 0 auto;
+		padding: 0;
+		}
+
+	/* Specific Boxes Styling */
+	/* Box 1 of 5 */
+	.box-1 {
+		/*background-color: rgba(19,36,64,0);*/
+		}
+
+	.box-1 p {
+		margin-top: -10px;
+		}
+
+	.logobox {
+    background-color: rgba(19,36,64,1);
+		}
+
+	.box-1 .logo {
+		/*height: 50vh;*/
+		background-color: white;
+		width: 100%;
+		/*background-image: url('../images/purrge_logo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;*/
+	}
+
+	.give-warmth h1 {
+		font-family: 'Fjalla One', cursive;
+	}
+
+	/* Box 2 of 5 */
+	.box-2 {
+		background-color: white;
+		}
+
+	.box-2 .top {
+		width: 100%;
+		background-image: url('../images/snow_mink.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.box-2 .bottom {
+		color: darkgrey;
+	}
+
+	.box-2 h1 {
+		color: rgba(19,36,64,1);
+	}
+
+	/* Box 3 of 5 */
+	.box-3 {
+		color: navy;
+		background-color: lightgrey;
+/*		background-image: url('../images/tiny_hearts.jpg');
+		background-size: cover;
+		background-repeat: repeat;*/
+		/*background-position: center;*/
+		}
+
+	.box-3 .top {
+		background-image: url('../images/bornfree_squirrel.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		transform: scaleX(-1);
+	}
+
+	.box-3 .bottom {
+		background-color: lightgrey;
+		color: #132440;
+	}
+
+	.box-3 h1 {
+		color: white;
+	}
+
+	/* Box 4 of 5 */
+	.box-4 {
+		background-image: url('../images/tiny_hearts.jpg');
+		background-size: cover;
+		background-repeat: repeat;
+		color: darkgrey;
+		}
+
+	.box-4 .top {
+		width: 100%;
+
+/*		background-image: url('../images/bornfree_squirrel.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		transform: scaleX(-1);
+		opacity: .8;*/
+	}
+
+	.box-4 h1 {
+		color: #132440;
+	}
+
+	/* Box 5 of 5 */
+	.box-5 {
+		background-image: url('../images/cotton_stick.jpeg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		opacity: .75;
+		color: white;
+		}
+
+	.box-5 .top {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#132440+0,3f4c6b+98&1+0,1+50,0+100 */
+background: -moz-linear-gradient(top,  rgba(19,36,64,1) 0%, rgba(41,56,86,1) 50%, rgba(63,76,107,0.04) 98%, rgba(63,76,107,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(19,36,64,1) 0%,rgba(41,56,86,1) 50%,rgba(63,76,107,0.04) 98%,rgba(63,76,107,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(19,36,64,1) 0%,rgba(41,56,86,1) 50%,rgba(63,76,107,0.04) 98%,rgba(63,76,107,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132440', endColorstr='#003f4c6b',GradientType=0 ); /* IE6-9 */
+
+	}
+
+	.logobox .bottom p {
+		font-family: 'Fjalla One', cursive;
+		color: #B4FDFF;
+		font-size: 1.9em;
+		line-height: 1em;
+		text-align: center;
+		margin: 0;
+		margin-top: -50px;
+    text-transform: uppercase;
+    letter-spacing: -1px; /* may need adjustment mobile */
+		}
+
+	.bottom h1 {
+		font-family: 'Fjalla One', cursive;
+		font-size: 1.5em;
+		line-height: 1.5em;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+		margin-top: -70px;
+		}
+
+	#text {
+		/*display: inline-block;
+		vertical-align: top;*/
+		/*background-color: rgba(255, 255, 255, .1);*/
+		width: 90%;
+		/*height: 30vh;*/
+		height: auto;
+		padding: 10vh 5%;
+		margin: 0;
+		font-family: 'Francois One', cursive;
+		font-size: 2.1em;
+		line-height: 1em;
+		/*float: left;*/
+		}
+
+	p {
+		/*display: inline-block;
+		vertical-align: top;*/
+    margin: 0;
+    letter-spacing: .05em;
+    line-height: 1.4em;
+    font-family: 'Francois One';
+    font-size: .9em;
+		}
+
+	.fa-paw {
+  	position: fixed;
+  	bottom: 1vh;
+  	right: 1vw;
+  	color: black;
+		transition: all .25s;
+		}
+
+	.fa-paw:hover {
+		color: grey;
+		transition: all 1s;
+		}
+
+		}
+			/* START Image zoom on hover + Overlay colour */
+			/* Properties */
+			.parent {
+			    width: 100%;
+			    margin: 0;
+			    height: 50vh;
+			    overflow: hidden;
+			    position: relative;
+			    /*float: left;*/
+			    display: inline-block;
+					cursor: pointer;
+			}
+
+			.child {
+			    height: 100%;
+			    width: 100%;
+					background-image: url('../images/coyote_logo_bw.gif');
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: center;
+/*			    -webkit-transition: all 1.25s ease;
+			    -moz-transition: all 1.25s ease;
+			    -o-transition: all 1.25s ease;*/
+			    transition: all 1.25s ease;
+			}
+
+			.parent:hover .child, .parent:focus .child {
+/*			    -ms-transform: scale(1.25);
+			    -moz-transform: scale(1.25);
+			    -webkit-transform: scale(1.25);
+			    -o-transform: scale(1.25);
+			    transform: scale(1.25);*/
+			    transform: scale(1.25);
+			}
+
+			.parent:hover .child:before, .parent:focus .child:before {
+			    display: block;
+			    height: 100%;
+			    width: 100%;
+					background-image: url('../images/coyote_logo_color.gif');
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: center;
+			}
+
+			.child:before {
+			    content: "";
+			    display: none;
+			    height: 100%;
+			    width: 100%;
+			    position: center;
+			    top: 0;
+			    left: 0;
+			}
+			/* Background images */
+			.bg-one {background-image: url('../images/coyote_logo_bw.gif');}
+			/* END Image zoom on hover + Overlay colour */
+
+	.clearfix:after {
+	   content: ".";
+	   visibility: hidden; 
+	   display: block; 
+	   height: 0; 
+	   clear: both;
+		}
+}
+/*<----- DESKTOP-SIZE END ----->*/

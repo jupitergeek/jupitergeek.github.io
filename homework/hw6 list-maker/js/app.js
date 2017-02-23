@@ -18,11 +18,11 @@ $(document).ready(function () {
 		$('#item').val('');
         $('#item').focus();
 
-// Legendary Bonus: Remove individual <li> elements when they are clicked (hint: use $(this) and .remove())
-	$('li').click(function() {
-		$(this).remove();
-        $('#item').focus();
-	})
+		// Legendary Bonus: Remove individual <li> elements when they are clicked (hint: use $(this) and .remove())
+		$('li').click(function() {
+			$(this).remove();
+	        $('#item').focus();
+		})
 
 	// 'LEGENDARY' Version ???
 	// $('ul').on('click', 'li', function() {

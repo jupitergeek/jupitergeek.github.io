@@ -1,0 +1,29 @@
+body {
+	padding-top: 50px;
+	color: white;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+header {
+	background: #6BC8B4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	transition: all 2s;
+}
+
+.header-offset {
+	background-color: tomato;
+	height: 25px;
+}
+
+img {
+	width: 70%;
+	display: block;
+	margin: 30px auto 0;
+}
