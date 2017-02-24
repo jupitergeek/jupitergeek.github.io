@@ -8,21 +8,20 @@
 	  font-size: 20px;
 	  line-height: 1em;
 		margin: 0;
-	    /*overflow-y: hidden;
-	    overflow-x: hidden;*/
 		}
 
 	.wrapper {
 		display: block;
 		width: 100%;
+		margin: 0 auto;
 		background-color: #132440;
+		position: relative;
 		}
 	/* The Boxes - Main elements of design */
 	.box {
 		display: inline-block;
 		vertical-align: top;
 		background-color: white;
-		/*height: 100vh;*/
 		width: 100%;
 		padding-bottom: 300px;
 		}
@@ -34,21 +33,15 @@
 	.box-2 .top, .box-3 .top, .box-4 .top, .box-5 .top {
 		height: 50vh;
 		width: 100%;
-/*		background-image: url('../images/vector_fox_zzz.png');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;*/
 		}
 
 	.bottom {
-		/*height: 50vh;*/
-/*		background-color: rgba(255,255,255,.5);*/
 		margin: 0 auto;
 		padding: 0;
 		}
 
 	/* Specific Boxes Styling */
-	/* Box 1 of 5 */
+	/* Box 1 of 6 */
 	.box-1 {
 		/*background-color: rgba(19,36,64,0);*/
 		}
@@ -62,20 +55,15 @@
 		}
 
 	.box-1 .logo {
-		/*height: 50vh;*/
 		background-color: white;
 		width: 100%;
-		/*background-image: url('../images/purrge_logo.png');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;*/
 	}
 
 	.give-warmth h1 {
 		font-family: 'Fjalla One', cursive;
 	}
 
-	/* Box 2 of 5 */
+	/* Box 2 of 6 */
 	.box-2 {
 		background-color: white;
 		}
@@ -96,14 +84,10 @@
 		color: rgba(19,36,64,1);
 	}
 
-	/* Box 3 of 5 */
+	/* Box 3 of 6 */
 	.box-3 {
 		color: navy;
 		background-color: lightgrey;
-/*		background-image: url('../images/tiny_hearts.jpg');
-		background-size: cover;
-		background-repeat: repeat;*/
-		/*background-position: center;*/
 		}
 
 	.box-3 .top {
@@ -123,7 +107,7 @@
 		color: white;
 	}
 
-	/* Box 4 of 5 */
+	/* Box 4 of 6 */
 	.box-4 {
 		background-image: url('../images/tiny_hearts.jpg');
 		background-size: cover;
@@ -133,41 +117,77 @@
 
 	.box-4 .top {
 		width: 100%;
-
-/*		background-image: url('../images/bornfree_squirrel.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		transform: scaleX(-1);
-		opacity: .8;*/
 	}
-
-video {
-	width: 100%;
-	height: 100%;
-}
 
 	.box-4 h1 {
 		color: #132440;
 	}
 
-	/* Box 5 of 5 */
+	/* Box 5 of 6 */
 	.box-5 {
+		color: white;
+	}
+
+	.box-5 .top {
+		background-image: url('../images/animal-vs-faux-clear.gif');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.box-5 h1 {
+		color: #B4FDFF;
+	}
+
+	.box-5 img {
+		margin: 0 auto;
+		height: 50vh;
+		max-width: 100vw;
+	}
+
+	.box-5 {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#132440+0,ffffff+100 */
+background: rgb(19,36,64); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(19,36,64,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(19,36,64,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(19,36,64,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132440', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	}
+	/* Box 6 of 6 */
+	.box-6 {
 		background-image: url('../images/cotton_stick.jpeg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		opacity: .75;
-		color: white;
+		color: #132440;
 		}
 
-	.box-5 .top {
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#132440+0,3f4c6b+98&1+0,1+50,0+100 */
-background: -moz-linear-gradient(top,  rgba(19,36,64,1) 0%, rgba(41,56,86,1) 50%, rgba(63,76,107,0.04) 98%, rgba(63,76,107,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(19,36,64,1) 0%,rgba(41,56,86,1) 50%,rgba(63,76,107,0.04) 98%,rgba(63,76,107,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(19,36,64,1) 0%,rgba(41,56,86,1) 50%,rgba(63,76,107,0.04) 98%,rgba(63,76,107,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132440', endColorstr='#003f4c6b',GradientType=0 ); /* IE6-9 */
+	.box-6 iframe {
+		width: 100%;
+		height: 60vh;
+		margin: 0 auto;
+	}
 
+	.box-6 h1 {
+		color: white;
+	}
+
+	.box-6 h2 {
+		font-family: 'Fjalla One', cursive;
+		font-size: 2.5em;
+		line-height: 2em;
+		color: #D71304;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.box-6 .top {
+		height: 50vh;
+	}
+
+	.fa-heart {
+		color: white;
 	}
 
 	.logobox .bottom p {
@@ -188,27 +208,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132440', end
 		line-height: 1.5em;
 		text-transform: uppercase;
 		letter-spacing: -1px;
-		margin-top: -70px;
+		margin-top: -50px;
 		}
 
 	#text {
-		/*display: inline-block;
-		vertical-align: top;*/
-		/*background-color: rgba(255, 255, 255, .1);*/
 		width: 90%;
-		/*height: 30vh;*/
 		height: auto;
 		padding: 10vh 5%;
 		margin: 0;
 		font-family: 'Francois One', cursive;
 		font-size: 2.1em;
 		line-height: 1em;
-		/*float: left;*/
 		}
 
 	p {
-		/*display: inline-block;
-		vertical-align: top;*/
     margin: 0;
     letter-spacing: .05em;
     line-height: 1.4em;
@@ -250,18 +263,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132440', end
 					background-size: contain;
 					background-repeat: no-repeat;
 					background-position: center;
-/*			    -webkit-transition: all 1.25s ease;
+			    -webkit-transition: all 1.25s ease;
 			    -moz-transition: all 1.25s ease;
-			    -o-transition: all 1.25s ease;*/
+			    -o-transition: all 1.25s ease;
 			    transition: all 1.25s ease;
 			}
 
 			.parent:hover .child, .parent:focus .child {
-/*			    -ms-transform: scale(1.25);
+			    -ms-transform: scale(1.25);
 			    -moz-transform: scale(1.25);
 			    -webkit-transform: scale(1.25);
 			    -o-transform: scale(1.25);
-			    transform: scale(1.25);*/
+			    transform: scale(1.25);
 			    transform: scale(1.25);
 			}
 
